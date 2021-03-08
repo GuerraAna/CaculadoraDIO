@@ -2,24 +2,12 @@
 import kotlin.math.pow
 
 //Funções das operações matemáticas na calculadora. Soma-Subtração-Multiplicação-Divisão-Porcentagem-Potenciação (Sair não precisa de função).
-fun soma(num1: Float, num2: Float): Float {
-    return num1.plus(num2)
-}
-fun subtracao(num1: Float, num2: Float): Float {
-    return num1.minus(num2)
-}
-fun multiplicacao(num1: Float, num2: Float): Float {
-    return num1.times(num2)
-}
-fun divisao(num1: Float, num2: Float): Float {
-    return num1.div(num2)
-}
-fun porcentagem(num1: Float, num2: Float): Float {
-    return num1.times(num2) / 100
-}
-fun potenciacao(num1: Float, num2: Float): Float {
-    return num1.pow(num2)
-}
+fun soma(num1: Float, num2: Float) = num1.plus(num2)
+fun subtracao(num1: Float, num2: Float) = num1.minus(num2)
+fun multiplicacao(num1: Float, num2: Float) = num1.times(num2)
+fun divisao(num1: Float, num2: Float) = num1.div(num2)
+fun porcentagem(num1: Float, num2: Float) = num1.times(num2) / 100
+fun potenciacao(num1: Float, num2: Float) = num1.pow(num2)
 
 //Função principal.
 fun main ( ) {
